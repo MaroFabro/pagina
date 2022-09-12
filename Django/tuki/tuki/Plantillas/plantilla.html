@@ -1,0 +1,36 @@
+<html>
+    <body>
+
+        {% include "superior/barra.html" %}
+    <h2 style="color:red">
+    Buuuuuuuenas jajaja
+    </h2>
+    
+    {% comment %} no temas
+    pt
+    {% endcomment %}
+
+    {% if nombre_man == "Xavi Juan" %}
+    <p>El curso lo imparte el veterano de guerra</p>
+    {% else %}
+    <p>El curso lo imparte el suplente</p>
+    {% endif %}
+
+
+    <p>Mi nombre es: {{nombre_man|lower}} {{apellido|upper}}</p>
+    <p>Va a venir aca el d&iacute;a: {{actual.day}} / {{actual.month}} / {{actual.year}}</p>
+    <p><strong>Temas a ver:</strong></p>
+    <p>
+        <ul>
+        {% if temas %}
+        {% for Tema in temas %}
+            <li><p>{{Tema|first|lower}}</p></li>
+
+        {% endfor %}
+        {% else %}
+        <p>No hay nada</p>
+        {% endif %}
+        </ul>
+    </p>
+</body>
+    </html>

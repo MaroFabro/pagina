@@ -1,0 +1,6 @@
+from artistas.forms import Inscripción
+elformulario=Inscripción()
+elformulario=Inscripción(request.POST)
+        if elformulario.is_valid():
+            infForm=elformulario.cleaned_data
+            sendfile(infForm["Nombre"], infForm["Integrantes"], infForm["Reseña"], infForm["Rubro"], infForm["Provincia"], infForm["Localidad"], infForm["Teléfono"], infForm["Email"], infForm["Razón Social"], infForm["Costo"],)
