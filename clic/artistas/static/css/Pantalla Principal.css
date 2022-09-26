@@ -1,0 +1,136 @@
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+.todo {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9e1;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5%;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #1E4580;
+
+}
+
+.informacion {
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+button {
+    background-color: #1E4580;
+    color: #FFFFFF;
+    font-size: 40px;
+    position: relative; left: 555px;
+    margin: 60px 0px;
+    cursor: pointer;
+}
+
+.todopie {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9e1;
+    display: flex;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-radius: 2%;
+}   
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#tcont {
+    margin-left: 10px;
+    font-size: 30px;
+    --fa-style-family:"Font Awesome 6 Free"; 
+    color:#1E4580;
+    padding-right: 10px;
+}
+
+#ayuda{
+    font-size: 30px;
+}
+
+#face {
+    font-size: 70px;
+    padding-left:  0px;
+    margin-right: 0px;
+}
+
+#insta {
+   font-size: 70px;
+   margin-left: 10px;
+   margin-right: 30px;
+}
+
+hr {
+    margin: 25px 25%;
+    margin-top: 5%;
+    padding: 0 25%;
+    
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+P {
+    font-size: 30px;
+    border-left:  2px solid #1E4580 ;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+#face:hover {
+    color: #1E4580;
+}
+
+#insta:hover {
+    color: indianred;
+}
+
+button:hover {
+    background-color: #112646;
+}
+
+#tcont:hover {
+    color: #3573cf;
+}
+
+img {
+    width: 90px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+
+
+

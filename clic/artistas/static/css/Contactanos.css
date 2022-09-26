@@ -1,0 +1,71 @@
+body {
+    background-image: url("static/css/fondo.jpg");
+    background-size: cover;
+}
+.todo {
+    display: block;
+    background-color: #f9f9f9b6;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Email {
+    display: flex;
+    justify-content: center;    
+}
+
+.mensaje {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    resize: none;
+}
+
+.enviar {
+    background-color: #1E4580;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 20px;
+}
+.enviarp{
+    margin-top: 40px;
+    margin-left: 20%;
+
+}

@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Inscripción</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="formularios.css">
+        <link rel="icon" href="Clic.ico">
+    </head>
+<body>
+    <div>
+        <h1>Inscripción</h1>
+    </div>
+    <form action="" method="POST">
+        
+        {% csrf_token %}
+
+            <div>
+                <label>Nombre de banda y/o Artista: <input type="text" name="Nombre", required></label>
+            </div>
+
+            <div>
+                <label>Cantidad de integrantes: <input type="number" name="Integrantes"></label>
+            </div>
+
+            <div>
+                <label>información Artista o Reseña:</label><textarea type="text" name="Reseña", required></textarea>
+            </div>
+
+            <div>
+                <label>Rubro o género de música: <input type="text" name="Rubro", required></label>
+            </div>
+
+        <select>  
+            <option value="" disabled="" selected="">Provincia</option>
+            <option>Baradero</option>
+        </select>
+
+        <select>  
+            <option value="" disabled="" selected="">Localidad</option>
+            <option>Baradero</option>
+        </select>
+
+        <div>
+            <label>Contacto telefónico: <input type="number" name="Teléfono", required></label>
+        </div>
+
+        <div>
+            <label>Contacto Mail: <input type="email" name="Email", required></label>
+        </div>
+
+        <div>
+            <label>Link o sitios de Materiales discográfico: <input type="text" name="Materiales"></label>
+        </div>
+
+        <div>
+            <label>Razón Social: <textarea type="text" name="Razon Social"></textarea></label>
+        </div>
+
+        <div>
+            <label>Costo: <input type="number" name="Costo", required></label>
+        </div>
+
+        <div><input type="submit" value="Enviar"></div>
+    </form>
+    <a class="nav-link text-uppercase text-expanded" href="contacto">Contáctanos</a>
+</body>
+</html>

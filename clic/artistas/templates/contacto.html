@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Contácto</title>
+        <meta charset="utf-8">
+        <link rel="icon" href='{% static "css/Contactanos.css" %}'Clic.jpg">
+        <link rel="stylesheet" href="Contactanos.css">
+
+    </head>
+<body>
+    <div>
+        <h1>Contáctanos</h1>
+    </div>
+    
+    <div>
+        <form action="" method="POST" {% csrf_token %}>
+            
+
+            <div>
+                <label>Asunto: <input type="text" name="asunto", required></label>
+            </div>
+
+            <div>
+                <label>E-mail: <input type="email" name="email", required></label>
+            </div>
+
+            <div>
+                <label>Mensaje: <textarea class="Mensaje" name="mensaje" rows="10" cols="40" maxlength="500 characters"></textarea></label>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar"></div>
+        </form>
+    </div>
+</body>
+</html>
