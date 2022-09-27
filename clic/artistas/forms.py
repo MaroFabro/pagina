@@ -4,7 +4,7 @@ class Inscripción(forms.Form):
     from django import forms
 
 provincia= [
-    ("Buenos Aires")
+    ("Buenos Aires","cordoba")
 ]
 
 localidad= [

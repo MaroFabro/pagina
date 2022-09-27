@@ -1,38 +1,40 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contácto</title>
-        <meta charset="utf-8">
-        <link rel="icon" href="static/css/Clic.ico">
-        <link type="text/css" href='{% static "css/Contactanos.css" %}' rel="stylesheet">
-        <link rel="stylesheet" href="Contactanos.css">
 
-    </head>
+<head>
+    <title>Contácto</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="static/css/Clic.ico">
+    <link type="text/css" href='{% static "css/Contactanos.css" %}' rel="stylesheet">
+
+</head>
+
 <body>
-    <div>
-        <h1>Contáctanos</h1>
-    </div>
-    
-    <div>
-        <form action="" method="POST" {% csrf_token %}>
-            
+    <div class="todo">
+        <div class="cont">
+            <h1>Contáctanos</h1>
+        </div>
+            <form action="" method="POST" >
+                {% csrf_token %}
+                <div class="nombre">
+                    <label> Nombre <input type="text" name="asunto" , required></label>
+                </div>
 
-            <div>
-                <label> Asunto: <input type="text" name="asunto", required></label>
-            </div>
+                <div class="Email">
+                    <label> E-mail: <input type="email" name="email" , required></label>
+                </div>
 
-            <div>
-                <label> E-mail: <input type="email" name="email", required></label>
-            </div>
+                <div class="mensaje">
+                    <label> Mensaje: <textarea class="Mensaje" name="mensaje" rows="10" cols="40"
+                            maxlength="500 characters"></textarea></label>
+                </div>
 
-            <div>
-                <label> Mensaje: <textarea class="Mensaje" name="mensaje" rows="10" cols="40" maxlength="500 characters"></textarea></label>
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar"></div>
-        </form>
+                <div class="enviarp">
+                    <input type="submit" value="Enviar" class="enviar">
+                </div>
+            </form>
     </div>
 </body>
+
 </html>
