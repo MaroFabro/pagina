@@ -2,6 +2,7 @@ body {
     background-image: url("fondo.jpg");
     background-size: cover;
 }
+
 .todo {
     padding: 0;
     margin: 0;
@@ -37,7 +38,8 @@ button {
     background-color: #1E4580;
     color: #FFFFFF;
     font-size: 40px;
-    position: relative; left: 555px;
+    position: relative;
+    left: 555px;
     margin: 60px 0px;
     cursor: pointer;
 }
@@ -53,7 +55,7 @@ button {
     margin-top: 50px;
     margin-bottom: 0px;
     border-radius: 2%;
-}   
+}
 
 a {
     text-decoration: none;
@@ -63,32 +65,32 @@ a {
 #tcont {
     margin-left: 10px;
     font-size: 30px;
-    --fa-style-family:"Font Awesome 6 Free"; 
-    color:#1E4580;
+    --fa-style-family: "Font Awesome 6 Free";
+    color: #1E4580;
     padding-right: 10px;
 }
 
-#ayuda{
+#ayuda {
     font-size: 30px;
 }
 
 #face {
     font-size: 70px;
-    padding-left:  0px;
+    padding-left: 0px;
     margin-right: 0px;
 }
 
 #insta {
-   font-size: 70px;
-   margin-left: 10px;
-   margin-right: 30px;
+    font-size: 70px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 hr {
     margin: 25px 25%;
     margin-top: 5%;
     padding: 0 25%;
-    
+
 }
 
 .pie {
@@ -99,7 +101,7 @@ hr {
 
 P {
     font-size: 30px;
-    border-left:  2px solid #1E4580 ;
+    border-left: 2px solid #1E4580;
     margin-left: 40px;
     padding-left: 40px;
 }
@@ -126,8 +128,3 @@ img {
     margin-top: 0px;
     margin-left: 20px;
 }
-
-
-
-
-

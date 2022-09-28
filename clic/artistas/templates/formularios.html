@@ -5,66 +5,91 @@
     <title>Inscripción</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href='{% static "css/formularios.css" %}'>
-    <link rel="icon" href="Clic.ico">
+    <link rel="icon" href="static/css/Clic.ico">
+    <script src="https://kit.fontawesome.com/002fa1a054.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="todo">
+        <img src="static/css/logo.png" alt="">
         <div class="inscripcion">
             <h1>Inscripción</h1>
         </div>
-        <form action="" method="POST" >
+        <form action="" method="POST">
             {% csrf_token %}
-            <div>
-                <label>Nombre de banda y/o Artista: <input type="text" name="Nombre" , required></label>
+            <div class="plinea">
+                <div class="nombrebanda">
+                    <label>Nombre de banda y/o Artista: <input type="text" name="Nombre" , required></label>
+                </div>
+
+                <div class="int">
+                    <label>Cantidad de integrantes: <input type="number" name="Integrantes"></label>
+                </div>
+
+                <div class="rubro">
+                    <label>Rubro o género de música: <input type="text" name="Rubro" , required></label>
+                </div>
             </div>
 
-            <div>
-                <label>Cantidad de integrantes: <input type="number" name="Integrantes"></label>
-            </div>
-
-            <div>
+            <div class="info">
                 <label>información Artista o Reseña:</label><textarea type="text" name="Reseña" , required></textarea>
             </div>
 
-            <div>
-                <label>Rubro o género de música: <input type="text" name="Rubro" , required></label>
+            <div class="tlinea">
+                <select class="listaP">
+                    <option value="" disabled="" selected="">Provincia</option>
+                    <option>Baradero</option>
+                </select>
+
+                <select class="listaL">
+                    <option value="" disabled="" selected="">Localidad</option>
+                    <option>Baradero</option>
+                </select>
             </div>
 
-            <select>
-                <option value="" disabled="" selected="">Provincia</option>
-                <option>Baradero</option>
-            </select>
+            <div class="slinea">
+                <div class="tel">
+                    <label>Contacto telefónico: <input type="number" name="Teléfono" , required></label>
+                </div>
 
-            <select>
-                <option value="" disabled="" selected="">Localidad</option>
-                <option>Baradero</option>
-            </select>
-
-            <div>
-                <label>Contacto telefónico: <input type="number" name="Teléfono" , required></label>
+                <div class="mail">
+                    <label>Contacto Mail: <input type="email" name="Email" , required></label>
+                </div>
             </div>
 
-            <div>
-                <label>Contacto Mail: <input type="email" name="Email" , required></label>
+            <div class="clinea">
+                <div class="material">
+                    <label>Link o sitios de Materiales discográfico: <input type="text" name="Materiales"></label>
+                </div>
+
+                <div class="RS">
+                    <label>Razón Social: <textarea type="text" name="Razon Social"></textarea></label>
+                </div>
+
+                <div class="costo">
+                    <label>Costo: <input type="number" name="Costo" , required></label>
+                </div>
             </div>
 
-            <div>
-                <label>Link o sitios de Materiales discográfico: <input type="text" name="Materiales"></label>
+            <div class="enviar">
+                <input type="submit" value="Enviar">
             </div>
-
-            <div>
-                <label>Razón Social: <textarea type="text" name="Razon Social"></textarea></label>
-            </div>
-
-            <div>
-                <label>Costo: <input type="number" name="Costo" , required></label>
-            </div>
-
-            <div><input type="submit" value="Enviar"></div>
         </form>
-        <a class="nav-link text-uppercase text-expanded" href="contacto">Contáctanos</a>
     </div>
 </body>
+<div class="todopie">
+    <footer>
+        <div class="pie">
+            <a class="nav-link text-uppercase text-expanded" href="contacto" id="tcont"
+                title="comentar algún problema">Contáctanos</a>
+            <i id="ayuda" class="fa-regular fa-comment"></i>
+            <P>Nuestras Redes</P>
+            <a href="https://www.facebook.com/MunicipalidaddeBaradero" target="_blank"><i id="face"
+                    class="fa-brands fa-square-facebook" title="Página de Facebook"></a></i>
+            <a href="https://www.instagram.com/municipiobaradero/" target="_blank"><i id="insta"
+                    class="fa-brands fa-instagram" title="Perfil de Instagram"></a></i>
+        </div>
+    </footer>
+</div>
 
 </html>
