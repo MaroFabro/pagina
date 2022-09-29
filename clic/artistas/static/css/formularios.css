@@ -4,26 +4,27 @@ body {
 }
 
 .todo {
-    display: flex;
-    background-color: #f9f9f9c5;
+    display: block;
+    background-color: #f9f9f9cc;
     margin: auto;
-    width: 500px;
+    width: 1000px;
     height: 700px;
     text-align: left;
     margin-top: 100px;
     border-radius:  50% #1E4580;
+    border-radius: 2% ;
 }
 
 .inscripcion {
-    margin-left: 15px;
+    font-family: monospace;
+    margin-left: 170px;
     color: #1E4580 ;
+    font-size: 30px;
 }
 
 .nombrebanda {
     margin: 0;
     padding: 0;
-    display: flex;
-    margin-top: 30px;
 }
 
 .todopie {
@@ -43,6 +44,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 
 #tcont {
     margin-left: 40px;
@@ -105,8 +107,63 @@ button:hover {
 }
 
 img {
-    width: 120px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.title {
+ display: flex;
+}
+
+.plinea {
+    display: flex;
+    margin-left: 30px;
+}
+
+.slinea {
+    display: inline-flex;
+}
+
+.tlinea {
+    display: flex;
+}
+
+.clinea {
+    display: flex;
+}
+
+input {
+    background-color: #9ba8df;
+    height: 30px;
+    width: 300px;
+    display: block;
+
+}
+
+label {
+    display: inline-block;
+    font-family: 'Raleway', monospace;
+    color: #112646;
+    font-size: 20px;
+}
+
+.info {
+    display:inline-block;
+    margin-top: 40px;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+textarea {
+display: block;
+width: 300px;
+height: 200px;
+padding: 10px;
+margin: 5px;
+border: 2px solid #000;
+border-radius: 3px;
+color: #000;
+resize: none;
 }

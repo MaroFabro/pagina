@@ -7,32 +7,45 @@
     <link rel="stylesheet" type="text/css" href='{% static "css/formularios.css" %}'>
     <link rel="icon" href="static/css/Clic.ico">
     <script src="https://kit.fontawesome.com/002fa1a054.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
     <div class="todo">
-        <img src="static/css/logo.png" alt="">
-        <div class="inscripcion">
-            <h1>Inscripción</h1>
+        <div class="title">
+            <img src="static/css/logo.png" alt="">
+            <div class="inscripcion">
+                <h1>Inscripción</h1>
+            </div>
         </div>
         <form action="" method="POST">
             {% csrf_token %}
             <div class="plinea">
                 <div class="nombrebanda">
-                    <label>Nombre de banda y/o Artista: <input type="text" name="Nombre" , required></label>
+                    <label>Nombre de banda o Artista</label><input type="text" name="Nombre" , required>
                 </div>
 
                 <div class="int">
-                    <label>Cantidad de integrantes: <input type="number" name="Integrantes"></label>
+                    <label>Cantidad de integrantes</label><input type="text" name="Integrantes">
                 </div>
 
                 <div class="rubro">
-                    <label>Rubro o género de música: <input type="text" name="Rubro" , required></label>
+                    <label>Rubro o género de música <input type="text" name="Rubro" , required></label>
                 </div>
             </div>
 
             <div class="info">
-                <label>información Artista o Reseña:</label><textarea type="text" name="Reseña" , required></textarea>
+                <label>información Artista o Reseña</label><textarea type="text" name="Reseña" , required></textarea>
+            </div>
+
+            <div class="slinea">
+                <div class="tel">
+                    <label>Contacto telefónico <input type="number" name="Teléfono" , required></label>
+                </div>
+
+                <div class="mail">
+                    <label>Contacto Mail <input type="email" name="Email" , required></label>
+                </div>
             </div>
 
             <div class="tlinea">
@@ -47,27 +60,17 @@
                 </select>
             </div>
 
-            <div class="slinea">
-                <div class="tel">
-                    <label>Contacto telefónico: <input type="number" name="Teléfono" , required></label>
-                </div>
-
-                <div class="mail">
-                    <label>Contacto Mail: <input type="email" name="Email" , required></label>
-                </div>
-            </div>
-
             <div class="clinea">
                 <div class="material">
-                    <label>Link o sitios de Materiales discográfico: <input type="text" name="Materiales"></label>
+                    <label>Link o sitios de Materiales discográfico <input type="text" name="Materiales"></label>
                 </div>
 
                 <div class="RS">
-                    <label>Razón Social: <textarea type="text" name="Razon Social"></textarea></label>
+                    <label>Razón Social <input type="text" name="Razon Social"></label>
                 </div>
 
                 <div class="costo">
-                    <label>Costo: <input type="number" name="Costo" , required></label>
+                    <label>Costo <input type="number" name="Costo" , required></label>
                 </div>
             </div>
 

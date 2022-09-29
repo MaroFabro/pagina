@@ -5,11 +5,10 @@ body {
 
 .todo {
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: #f9f9f9e1;
     display: block;
-    margin: auto;
     border-radius: 5%;
 }
 
