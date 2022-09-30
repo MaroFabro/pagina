@@ -35,13 +35,13 @@
             </div>
             <div class="slinea">
                 <div class="info">
-                    <label>información Artista o Reseña</label><textarea type="text" name="Reseña" placeholder='Mensaje o Link sobre la Banda o Artista'
+                    <label>información Artista o Reseña</label><textarea type="text" name="Reseña" placeholder='Mensaje o Link sobre la Banda o Artista' maxlength="500"
                         required></textarea>
                 </div>
 
                 <div class="lineav">
                     <div class="tel">
-                        <label>Contacto telefónico <input id="textol" type="number" name="Teléfono" placeholder='EJ:"3329-698750"(Sin +54)' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" min="10" maxlength="11" required></label>
+                        <label>Contacto telefónico <input id="textol" type="text" name="Teléfono" placeholder='EJ:"3329-698750"(Sin +54)' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="10" maxlength="11"  pattern="[0-9--]+" required></label>
                     </div>
                     <label id="local2">Provincia<select class="listap"></label>
                     <option value="" disabled="" selected="">Provincia</option>
@@ -65,11 +65,11 @@
                 </div>
 
                 <div class="RS">
-                    <label>CUIT <input type="text" name="CUIT" placeholder='EJ:"20-20452134-7"' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="11" maxlength="13" required></label>
+                    <label>CUIT <input type="text" name="CUIT" placeholder='EJ:"20-20452134-7"' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="9" maxlength="11"  pattern="[0-9--]+" required></label>
                 </div>
 
                 <div class="costo">
-                    <label>Costo <input type="number" name="Costo" placeholder="Valor estimado del Show" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="5" maxlength="7" required></label>
+                    <label>Costo <input type="text" name="Costo" placeholder='Valor estimado del Show. EJ:"20000"' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="5" maxlength="9"  pattern="[0-9-.]+"  required></label>
                 </div>
             </div>
             <hr>
