@@ -1,3 +1,9 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 body {
     background-image: url("fondo.jpg");
     background-size: cover;
@@ -98,7 +104,7 @@ P {
     color: indianred;
 }
 
-button:hover {
+.enviar:hover {
     background-color: #112646;
 }
 
@@ -119,7 +125,7 @@ img {
 
 .plinea {
     display: flex;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .slinea {
@@ -128,14 +134,12 @@ img {
 
 .tlinea {
     display: flex;
-}
-
-.clinea {
-    display: flex;
+    margin-left: 25px;
+    margin-top: 40px;
 }
 
 input {
-    background-color: #9ba8df;
+    background-color: #afb9e6b9;
     height: 30px;
     width: 300px;
     display: block;
@@ -152,18 +156,92 @@ label {
 .info {
     display:inline-block;
     margin-top: 40px;
-    justify-content: left;
     margin-left: 20px;
 }
 
 textarea {
 display: block;
 width: 300px;
-height: 200px;
+height: 130px;
 padding: 10px;
 margin: 5px;
 border: 2px solid #000;
 border-radius: 3px;
 color: #000;
 resize: none;
+background-color: #afb9e6b9;
+}
+
+.nombrebanda {
+    margin-right: 25px;
+}
+
+.rubro {
+    margin-left: 25px;
+}
+
+.tel {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#textol {
+    margin-top: 5px;
+}
+
+.mail {
+    margin-top: 40px;
+    margin-left: 4px;
+}
+
+.listap {
+    margin-top: 5px;
+    background-color: #afb9e6b9;
+    height: 30px;
+    width: 300px;
+}
+
+.listal {
+    margin-top: 5px;
+    background-color: #afb9e6b9;
+    height: 30px;
+    width: 300px;
+}
+
+#local1 {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+#local2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.material {
+    margin: 0;
+    padding: 0;
+}
+
+.material {
+    margin-right: 25px;
+}
+.costo {
+    margin-left: 25px;
+}
+
+hr {
+    color:  #1E4580 ;
+    
+}
+
+.enviar {
+    background-color: #1E4580;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    margin: 60px 0px;
+    cursor: pointer;
+
 }

@@ -22,60 +22,59 @@
             {% csrf_token %}
             <div class="plinea">
                 <div class="nombrebanda">
-                    <label>Nombre de banda o Artista</label><input type="text" name="Nombre" , required>
+                    <label>Nombre de banda o Artista</label><input type="text" name="Nombre" placeholder='EJ:"La Solución"'required>
                 </div>
 
                 <div class="int">
-                    <label>Cantidad de integrantes</label><input type="text" name="Integrantes">
+                    <label>Cantidad de integrantes</label><input type="number" name="Integrantes" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="2">
                 </div>
 
                 <div class="rubro">
-                    <label>Rubro o género de música <input type="text" name="Rubro" , required></label>
+                    <label>Rubro o género de música <input type="text" name="Rubro" placeholder='EJ:"Rock"' required></label>
                 </div>
             </div>
-
-            <div class="info">
-                <label>información Artista o Reseña</label><textarea type="text" name="Reseña" , required></textarea>
-            </div>
-
             <div class="slinea">
-                <div class="tel">
-                    <label>Contacto telefónico <input type="number" name="Teléfono" , required></label>
+                <div class="info">
+                    <label>información Artista o Reseña</label><textarea type="text" name="Reseña" placeholder='Mensaje o Link sobre la Banda o Artista'
+                        required></textarea>
                 </div>
 
-                <div class="mail">
-                    <label>Contacto Mail <input type="email" name="Email" , required></label>
+                <div class="lineav">
+                    <div class="tel">
+                        <label>Contacto telefónico <input id="textol" type="number" name="Teléfono" placeholder='EJ:"3329-698750"(Sin +54)' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" min="10" maxlength="11" required></label>
+                    </div>
+                    <label id="local2">Provincia<select class="listap"></label>
+                    <option value="" disabled="" selected="">Provincia</option>
+                    <option>Baradero</option>
+                    </select>
+                </div>
+                <div class="lineav">
+                    <div class="mail">
+                        <label>Contacto Mail <input id="textol" type="email" name="Email" placeholder='EJ:"LaSolucion@gmail.com"' required></label>
+                    </div>
+                    <label id="local1">Localidad<select class="listal"></label>
+                    <option value="" disabled="" selected="">Localidad</option>
+                    <option>Baradero</option>
+                    </select>
                 </div>
             </div>
 
             <div class="tlinea">
-                <select class="listaP">
-                    <option value="" disabled="" selected="">Provincia</option>
-                    <option>Baradero</option>
-                </select>
-
-                <select class="listaL">
-                    <option value="" disabled="" selected="">Localidad</option>
-                    <option>Baradero</option>
-                </select>
-            </div>
-
-            <div class="clinea">
                 <div class="material">
-                    <label>Link o sitios de Materiales discográfico <input type="text" name="Materiales"></label>
+                    <label>Material discográfico <input type="text" name="Materiales" placeholder="Link de Canciones"></label>
                 </div>
 
                 <div class="RS">
-                    <label>Razón Social <input type="text" name="Razon Social"></label>
+                    <label>CUIT <input type="text" name="CUIT" placeholder='EJ:"20-20452134-7"' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="11" maxlength="13" required></label>
                 </div>
 
                 <div class="costo">
-                    <label>Costo <input type="number" name="Costo" , required></label>
+                    <label>Costo <input type="number" name="Costo" placeholder="Valor estimado del Show" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" minlength="5" maxlength="7" required></label>
                 </div>
             </div>
-
-            <div class="enviar">
-                <input type="submit" value="Enviar">
+            <hr>
+            <div>
+                <input class="enviar" type="submit" value="Enviar">
             </div>
         </form>
     </div>
