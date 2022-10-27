@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 22px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(96, 96, 255);
+}
+
+h1{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 4em;
+}
+
+header{
+    background-color:rgb(94, 135, 245);
+    display: flex;
+}
+
+a{
+    margin-top: 10px;
+    margin-left: 3em;
+    text-decoration: none;
+    color: black;
+}
