@@ -22,6 +22,10 @@ summary{
     cursor: pointer;
 }
 
+p{
+    margin-top: 1em;
+}
+
 .contenedor{
     background-color: rgb(238, 232, 232);
     margin-left: 4em;
@@ -130,4 +134,8 @@ a{
     margin-bottom: 10px;
     text-decoration: none;
     color: black;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.452);
 }
