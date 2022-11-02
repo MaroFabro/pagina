@@ -67,53 +67,6 @@ p{
     padding-left: 35px;
 }
 
-
-.slider{
-    border: 5px solid;
-    border-color: black;
-    align-items: center;
-    margin-left: 25em;
-    width: 23%;
-    height: 275px;
-    overflow: hidden;
-    position: absolute;
-    margin-bottom: 1em;
-}
-
-.slider ul{
-    align-items: center;
-    display: flex;
-    animation: transicion 20s infinite alternate linear;
-    width: 400%;
-    list-style-type: none;
-}
-
-.slider li{
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.slider img{
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-@keyframes transicion{
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-
-    75%{margin-left: -300%;}
-    100%{margin-left: -300%;}
-}
-
 .contenedor li{
     margin-left: 1em;
 }
@@ -147,6 +100,15 @@ a{
     margin-bottom: 10px;
     text-decoration: none;
     color: rgb(238, 225, 225);
+}
+
+.eov img{
+    position: absolute;
+    margin-left: 29em;
+}
+
+.eov{
+    margin-right: 16em;
 }
 
 .culpa img{
@@ -264,4 +226,184 @@ footer{
 hr{
     margin-left: -1em;
     margin-right: -1em;
+}
+
+@media (max-width: 1200px){
+    
+    h1{
+    text-align: center;
+    font-size: 4em;
+    }
+
+    body{
+        font-size: 3vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-image: url(fondo.jpg);
+    }
+
+    h2{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        background-color: rgb(94, 135, 245);
+    }
+
+    p{
+        margin-top: 1em;
+        text-indent: 25px;
+    }
+
+    .contenedor{
+        display: flex;
+        background-color: rgb(238, 232, 232);
+        margin-top: 1em;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 1em;
+        border-radius: 2%;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    .contenedor h2{
+        background-color: rgb(94, 135, 245);
+        padding: 0;
+        display: flex;
+    }
+    
+    .contenido{
+        padding-left: 40px;
+        padding-top: 25px;
+        padding-right: 40px;
+        padding-bottom: 2em;
+    }
+    
+    .contenido h2{
+        padding-left: 30px;
+    }
+
+    .error1 img{
+        position: absolute;
+        margin-left: 15em;
+        margin-top: 45px;
+    }
+    
+    .error1 li{
+        margin-right: 14em;
+    }
+    
+    .error2 img{
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 1em;
+    }
+    
+    .error2 li{
+        margin-left: 14em;
+    }
+    
+    .error3 img{
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 32em;
+    }
+    
+    .error3 li{
+        margin-right: 12em;
+    }
+    
+    .error4 img{
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 1em;
+    }
+    
+    .error4 li{
+        margin-left: 12em;
+    }
+    
+    .error5 img{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 33em;
+    }
+    
+    .error5 li{
+        margin-right: 12em;
+    }
+    
+    .error6 img{
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 2em;
+    }
+    
+    .error6 li{
+        margin-left: 13em;
+    }
+    
+    .error7 img{
+        position: absolute;
+        margin-top: 4em;
+        margin-left: 30em;
+        margin-bottom: 10px;
+    }
+    
+    .error7 li{
+        margin-right: 12em;
+    }
+    
+    .error8 img{
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 1em;
+    }
+    
+    .error8 li{
+        margin-left: 14em;
+    }
+    
+    .error9 img{
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 30em;
+    }
+
+    header{
+        background-color:rgba(0, 0, 0, 0.349);
+        display: flex;
+    }
+    
+    header a{
+        font-size: 30px;
+        margin-right: 1em;
+        margin-top: 18px;
+        margin-left: 3em;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: rgb(238, 225, 225);
+    }
+
+    .img1 img{
+        position: absolute;
+        margin-left: 28em;
+        margin-bottom: 15px;
+    }
+    
+    .img1 ul{
+        margin-right: 15em;
+    }
+    
+    hr{
+        margin-left: -1vh;
+        margin-right: -1vh;
+    }
+
+    summary{
+        margin-top: 1em;
+        font-size: 25px;
+        cursor: pointer;
+    }
 }
