@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +7,7 @@
 
 body{
     font-size: 25px;
+    font-family: 'Albert Sans', sans-serif;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -137,10 +140,10 @@ footer{
     }
     
     header a{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 18px;
         margin-bottom: 18px;
-        margin-left: 2em;
+        margin-left: 1em;
         margin-right: 1em;
         text-decoration: none;
         color: rgb(238, 225, 225);
@@ -149,6 +152,6 @@ footer{
     footer{
         background-color: rgba(0, 0, 0, 0.349);
         text-align: center;
-        margin-top: 129px;
+        margin-top: 90px;
     }
 }

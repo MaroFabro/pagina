@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +7,7 @@
 
 body{
     font-size: 25px;
+    font-family: 'Albert Sans', sans-serif;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -114,7 +117,6 @@ a{
 .culpa img{
     position: absolute;
     margin-left: 30em;
-    margin-top: 2em;
 }
 
 .culpa p{
@@ -252,15 +254,15 @@ hr{
 
     p{
         margin-top: 1em;
-        text-indent: 25px;
+        text-indent: 15px;
     }
 
     .contenedor{
         display: flex;
         background-color: rgb(238, 232, 232);
         margin-top: 1em;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
         margin-bottom: 1em;
         border-radius: 2%;
         padding: 0;
@@ -270,133 +272,141 @@ hr{
     .contenedor h2{
         background-color: rgb(94, 135, 245);
         padding: 0;
-        margin-left: -30px;
-        margin-right: -30px;
+        margin-left: -15px;
+        margin-right: -15px;
         display: flex;
     }
     
     .contenido{
-        padding-left: 30px;
+        padding-left: 15px;
         padding-top: 25px;
-        padding-right: 30px;
+        padding-right: 15px;
         padding-bottom: 2em;
     }
     
     .contenido h2{
-        padding-left: 30px;
+        padding-left: 15px;
     }
 
     .error1 img{
         position: absolute;
-        margin-left: 18em;
-        margin-top: 65px;
+        margin-left: 5em;
+        margin-top: 12em;
         height: 160px;
         width: 190px;
     }
     
-    .error1 li{
-        margin-right: 12em;
+    .error1 ul{
+        margin-right: -14em;
+        padding-bottom: 10em;
     }
     
     .error2 img{
         position: absolute;
-        margin-top: 5em;
-        margin-left: 0;
+        margin-top: 15em;
+        margin-left: 5em;
         height: 150px;
         width: 200px;
     }
     
-    .error2 li{
-        margin-left: 13em;
+    .error2 ul{
+        margin-left: -13em;
+        padding-bottom: 10em;
     }
     
     .error3 img{
         position: absolute;
-        margin-top: 3em;
-        margin-left: 19em;
+        margin-top: 15em;
+        margin-left: 5em;
         height: 170px;
         width: 190px;
     }
     
-    .error3 li{
-        margin-right: 11em;
+    .error3 ul{
+        margin-right: -12em;
+        padding-bottom: 10em;
     }
     
     .error4 img{
         position: absolute;
-        margin-top: 4em;
-        margin-left: 0;
+        margin-top: 16em;
+        margin-left: 5em;
         height: 160px;
         width: 180px;
     }
     
-    .error4 li{
-        margin-left: 11em;
+    .error4 ul{
+        margin-left: -11em;
+        padding-bottom: 10em;
     }
     
     .error5 img{
         position: absolute;
-        margin-top: 4em;
-        margin-left: 20em;
+        margin-top: 17em;
+        margin-left: 5em;
         height: 170px;
         width: 170px;
     }
     
-    .error5 li{
-        margin-right: 10em;
+    .error5 ul{
+        margin-right: -12em;
+        padding-bottom: 12em;
     }
     
     .error6 img{
         position: absolute;
-        margin-top: 5em;
-        margin-left: 0;
+        margin-top: 16em;
+        margin-left: 5em;
         height: 160px;
         width: 180px;
     }
     
-    .error6 li{
-        margin-left: 12em;
+    .error6 ul{
+        margin-left: -12em;
+        padding-bottom: 12em;
     }
     
     .error7 img{
         position: absolute;
-        margin-top: 7em;
-        margin-left: 19em;
+        margin-top: 13em;
+        margin-left: 5em;
         margin-bottom: 10px;
         height: 160px;
         width: 180px;
     }
     
-    .error7 li{
-        margin-right: 10em;
+    .error7 ul{
+        margin-right: -10em;
     }
 
     .err7{
-        margin-left: 1em;
+        padding-bottom: 11em;
     }
     
     .error8 img{
         position: absolute;
-        margin-top: 65px;
-        margin-left: 0;
+        margin-top: 13em;
+        margin-left: 5em;
         height: 150px;
         width: 200px;
     }
     
-    .error8 li{
-        margin-left: 12em;
+    .error8 ul{
+        margin-left: -13em;
+        padding-bottom: 10em;
     }
     
     .error9 img{
         position: absolute;
-        margin-top: 45px;
-        margin-left: 17em;
+        margin-top: 13em;
+        margin-left: 5em;
         height: 125px;
         width: 175px;
     }
 
-    .error9 li{
-        margin-right: 11em;
+    .error9 ul{
+        margin-right: -12em;
+        padding-bottom: 12em;
     }
 
     header{
@@ -405,10 +415,10 @@ hr{
     }
     
     header a{
-        font-size: 30px;
+        font-size: 25px;
         margin-right: 1em;
         margin-top: 18px;
-        margin-left: 2em;
+        margin-left: 1em;
         margin-bottom: 10px;
         text-decoration: none;
         color: rgb(238, 225, 225);
@@ -416,20 +426,21 @@ hr{
 
     .img1 img{
         position: absolute;
-        margin-top: 3em;
-        margin-left: 14em;
-        margin-bottom: 15px;
+        margin-top: 13em;
+        margin-left: 4em;
+        margin-bottom: 20px;
         height: 150px;
         width: 280px;
     }
     
     .img1 ul{
-        margin-right: 15em;
+        margin-right: 0;
+        padding-bottom: 8em;
     }
     
     hr{
-        margin-left: -1em;
-        margin-right: -1em;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     summary{
@@ -440,25 +451,27 @@ hr{
 
     .eov img{
         position: absolute;
-        margin-top: 2em;
-        margin-left: 18em;
+        margin-top: 13em;
+        margin-left: 5em;
         height: 175px;
         width: 225px;
     }
     
     .eov{
-        margin-right: 13em;
+        margin-right: 0;
+        padding-bottom: 11em;
     }
 
     .culpa img{
         position: absolute;
-        margin-left: 17em;
-        margin-top: 6em;
+        margin-left: 5em;
+        margin-top: 9em;
         height: 170px;
         width: 200px;
     }
     
     .culpa p{
-        margin-right: 11em;
+        margin-right: 0;
+        padding-bottom: 10em;
     }
  }
