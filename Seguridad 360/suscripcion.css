@@ -35,8 +35,24 @@ h1{
 }
 
 header{
-    background-color:rgba(0, 0, 0, 0.349);
+    background-color:rgba(1, 0, 63, 0.349);
     display: flex;
+}
+
+.ha:hover {
+    background-color: rgba(0, 0, 24, 0.507);
+    transition: 0.5s;
+}
+
+.ha {
+    margin-left: 5em;
+    margin-top: 0.1em;
+}
+
+header img {
+    border-radius: 50%;
+    width:75px;
+    height:75px;
 }
 
 .form{
