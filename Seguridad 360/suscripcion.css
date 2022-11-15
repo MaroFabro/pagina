@@ -39,14 +39,37 @@ header{
     display: flex;
 }
 
-.ha:hover {
-    background-color: rgba(0, 0, 24, 0.507);
-    transition: 0.5s;
+header a{
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 10px;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    text-decoration: none;
+    color: rgb(238, 225, 225);
 }
 
-.ha {
-    margin-left: 5em;
-    margin-top: 0.1em;
+.conth {
+    margin-left: 0.6em;
+    display: flex;
+}
+
+.ha1:hover {
+    background-color: rgba(0, 0, 24, 0.507);
+    transition: 0.5s;
+    font-size: 1.1em;
+}
+
+.ha2:hover {
+    background-color: rgba(0, 0, 24, 0.507);
+    transition: 0.5s;
+    font-size: 1.1em;
+}
+
+.ha3:hover {
+    background-color: rgba(0, 0, 24, 0.507);
+    transition: 0.5s;
+    font-size: 1.1em;
 }
 
 header img {
@@ -78,16 +101,6 @@ p{
     padding: 10px;
     margin-top: 2em;
     font-size: 15px;
-}
-
-header a{
-    font-size: 2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 3em;
-    margin-right: 1em;
-    text-decoration: none;
-    color: rgb(238, 225, 225);
 }
 
 footer{
@@ -130,6 +143,37 @@ footer{
         display: flex;
     }
     
+    header a{
+        font-size: 28px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        text-decoration: none;
+        color: rgb(238, 225, 225);
+    }
+
+    .conth {
+        margin-left: 0.6em;
+        display: flex;
+    }
+    
+    .ha1:hover {
+        background-color: rgba(0, 0, 24, 0.507);
+        transition: 0.5s;
+        font-size: 1.1em;
+    }
+    
+    .ha2:hover {
+        background-color: rgba(0, 0, 24, 0.507);
+        transition: 0.5s;
+        font-size: 1.1em;
+    }
+    
+    .ha3:hover{
+        background-color: rgba(0, 0, 24, 0.507);
+        transition: 0.5s;
+        font-size: 1.1em;
+    }
+
     .form{
         padding: 3vh;
         text-align: center;
@@ -144,25 +188,16 @@ footer{
     }
     
     .input{
-        width: 400px;  
-        padding: 10px;
+        width: 350px;  
+        padding: 5px;
         font-size: 20px;
     }
     
     .submit{
+        width: 100px;
         padding: 10px;
-        margin-top: 2em;
-        font-size: 15px;
-    }
-    
-    header a{
-        font-size: 25px;
-        margin-top: 18px;
-        margin-bottom: 18px;
-        margin-left: 1em;
-        margin-right: 1em;
-        text-decoration: none;
-        color: rgb(238, 225, 225);
+        margin-top: 1em;
+        font-size: 22px;
     }
 
     footer{
