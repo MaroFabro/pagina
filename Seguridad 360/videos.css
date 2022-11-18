@@ -96,6 +96,10 @@ footer{
     margin-top: 5em;
 }
 
+footer p{
+    -webkit-text-stroke: 1px rgb(238, 225, 225);
+}
+
 @media (max-width: 1200px){
     body{
         font-size: 25px;
@@ -136,6 +140,7 @@ footer{
     }
     
     video{
+        margin-left: 2em;
         height: 250px;
         width: 250px;
     }
@@ -172,8 +177,12 @@ footer{
     }
 
     footer{
-        background-color: rgba(0, 0, 0, 0.349);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    footer p{
+        -webkit-text-stroke: 1px rgb(238, 225, 225);
+        font-size: 20px;
         text-align: center;
-        margin-top: 180px;
     }
 }
