@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&family=Playfair+Display:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Bebas Neue';
+}
+
+header {
+    background-color: rgb(192, 187, 164);
+    color: black;
+    display: flex;
+}
+
+.logoin {
+    display: flex;
+    background-color: #000000;
+    padding-left: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-right: 0.3em;
+
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 2em;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+a h1 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header img {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+}
+
+header h1 {
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+
+body {
+    background-image: url(ab.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    margin:7em 20em;
+    background-color: rgb(192, 187, 164);
+    box-shadow: 5px 10px 15px 15px#00000049 ;
+    padding-bottom: 2em;
+}
+
+section h2 {
+    padding-left: 1em;
+    padding-top: 2em;
+    font-size: 2.5em;
+}
+
+section p {
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 20em;
+    text-indent: 0.3em;
+}
+
+.sp {
+    margin-top: -0.5em;
+}
+
+section img {
+    width: 15em;
+    height: 10em;
+    margin-top:-10em;
+    margin-left: 25em;
+    border-radius: 3px;
+    box-shadow:  5px 5px 0px 0px #0000003e ; 
+    border:2px solid rgb(192, 187, 164);
+}
+
+#img {
+    height: 5em;
+    width: 15em;
+}
+
+section i {
+    font-size: 2em;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+section i:hover {
+    scale: 1.1;
+}
+
+#face{
+    margin-left: 1em;
+}

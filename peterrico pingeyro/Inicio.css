@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&family=Playfair+Display:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Bebas Neue';
+}
+
+body {
+    background-image: url(ab.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(192, 187, 164);
+    color: black;
+    display: flex;
+}
+
+.logoin {
+    display: flex;
+    background-color: #000000;
+    padding-left: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-right: 0.3em;
+
+}
+header a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 2em;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+header img {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+}
+
+header h1 {
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+
+section {
+    margin:7em 20em;
+    background-color: rgb(192, 187, 164);
+    box-shadow: 5px 10px 15px 15px#00000049 ;
+}
+
+section h2 {
+    padding-left: 1em;
+    padding-top: 3em;
+    font-size: 2.5em;
+}
+
+section p {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 27em;
+}
+section img {
+    width: 20em;
+    height: 20em;
+    margin-top:-12em;
+    margin-left: 20em;
+    border-radius: 3px;
+    box-shadow:  5px 5px 0px 0px #0000003e ; 
+    border:2px solid rgb(192, 187, 164);
+}
+
+section i {
+    font-size: 2em;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+section i:hover {
+    scale: 1.1;
+}
+
+#face{
+    margin-left: 1em;
+}
+
+
